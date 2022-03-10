@@ -1,0 +1,5 @@
+stam 
+file
+with
+many
+lines
