@@ -1,0 +1,16 @@
+pipeline {
+    agent any
+    stages {
+        stage('fetch') {
+            steps {
+                sh 'echo git'
+            }
+        }
+        stage('build') {
+            steps {
+                sh 'echo longfile'
+            }
+        }
+        
+    }
+}
